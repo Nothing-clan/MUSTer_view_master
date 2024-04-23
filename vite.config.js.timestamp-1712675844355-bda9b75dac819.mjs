@@ -1,9 +1,9 @@
 // vite.config.js
 import { fileURLToPath, URL } from "node:url";
-import { defineConfig } from "file:///K:/github-rep/musee_view_master/node_modules/.pnpm/vite@5.1.3/node_modules/vite/dist/node/index.js";
-import vue from "file:///K:/github-rep/musee_view_master/node_modules/.pnpm/@vitejs+plugin-vue@4.6.2_vite@5.1.3_vue@3.4.19/node_modules/@vitejs/plugin-vue/dist/index.mjs";
-import vueJsx from "file:///K:/github-rep/musee_view_master/node_modules/.pnpm/@vitejs+plugin-vue-jsx@3.1.0_vite@5.1.3_vue@3.4.19/node_modules/@vitejs/plugin-vue-jsx/dist/index.mjs";
-var __vite_injected_original_import_meta_url = "file:///K:/github-rep/musee_view_master/vite.config.js";
+import { defineConfig } from "file:///K:/github-rep/MUSTer_view_master/node_modules/.pnpm/vite@5.1.3/node_modules/vite/dist/node/index.js";
+import vue from "file:///K:/github-rep/MUSTer_view_master/node_modules/.pnpm/@vitejs+plugin-vue@4.6.2_vite@5.1.3_vue@3.4.19/node_modules/@vitejs/plugin-vue/dist/index.mjs";
+import vueJsx from "file:///K:/github-rep/MUSTer_view_master/node_modules/.pnpm/@vitejs+plugin-vue-jsx@3.1.0_vite@5.1.3_vue@3.4.19/node_modules/@vitejs/plugin-vue-jsx/dist/index.mjs";
+var __vite_injected_original_import_meta_url = "file:///K:/github-rep/MUSTer_view_master/vite.config.js";
 var vite_config_default = defineConfig({
   plugins: [
     vue(),

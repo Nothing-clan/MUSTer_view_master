@@ -9,22 +9,22 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/musee_view_master/',
+      path: '/MUSTer_view_master/',
       name: 'index',
       component: CaptureMainView
     },
     {
-      path: '/musee_view_master/collection',
+      path: '/MUSTer_view_master/collection',
       name: 'QuestionsCollectionView',
       component: QuestionsCollectionView
     },
     {
-      path: '/musee_view_master/userinfo',
+      path: '/MUSTer_view_master/userinfo',
       name: 'UserInformationView',
       component: UserInformationView
     },
     {
-      path: '/musee_view_master/error',
+      path: '/MUSTer_view_master/error',
       name: 'not-found',
       component: NotFoundComponent
     }

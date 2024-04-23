@@ -6,7 +6,7 @@
     font-family: Inter;
     font-size: 25px;
     font-style: normal;
-    font-weight: 600;padding:10px 0px 30px 0px;border-radius: 16px;" title="Musee 错题本" elevation="16">
+    font-weight: 600;padding:10px 0px 30px 0px;border-radius: 16px;" title="MUSTer 错题本" elevation="16">
             <template v-slot:prepend>
                 <v-icon size="large"></v-icon>
             </template>

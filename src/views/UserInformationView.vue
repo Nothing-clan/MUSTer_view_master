@@ -3,7 +3,7 @@
     <v-card class="mx-auto main-card" height="16vh">
         <!-- Card title -->
         <v-card-title class="card-title">
-            亲爱的MUSTer，欢迎回来！
+            亲爱的MUSTerr，欢迎回来！
         </v-card-title>
 
         <!-- Button container -->

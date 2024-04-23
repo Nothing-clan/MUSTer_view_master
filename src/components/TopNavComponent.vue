@@ -3,7 +3,7 @@
         <div class="logo-section">
             <img src="@/icons/ChatGPT.png" alt="" class="logo-image">
             <div class="logo-text">
-                <div class="main-title">Musee</div>
+                <div class="main-title">MUSTer</div>
                 <div class="subtitle">Education</div>
             </div>
         </div>
@@ -32,7 +32,7 @@
                     <v-container>
                         <v-row>
                             <v-col cols="12" sm="6">
-                                <v-img src="src/images/musee-edu/musee-edu.webp" aspect-ratio="1.7" class="mx-auto" cover
+                                <v-img src="src/images/MUSTer-edu/MUSTer-edu.webp" aspect-ratio="1.7" class="mx-auto" cover
                                     :height="300"></v-img>
                             </v-col>
                             <v-col cols="12" sm="6">
@@ -119,7 +119,7 @@ const buttons = ref([
         textColor: '#96ABB3',
         label: '马斯特拍题',
         isActive: false,
-        to: '/musee_view_master/',
+        to: '/MUSTer_view_master/',
     },
     {
         rounded: 'xl',
@@ -130,7 +130,7 @@ const buttons = ref([
         textColor: '#96ABB3',
         label: '错题集',
         isActive: false,
-        to: '/musee_view_master/collection',
+        to: '/MUSTer_view_master/collection',
     },
     {
         rounded: 'xl',
@@ -141,7 +141,7 @@ const buttons = ref([
         textColor: '#96ABB3',
         label: '学生档案',
         isActive: false,
-        to: '/musee_view_master/userinfo'
+        to: '/MUSTer_view_master/userinfo'
     },
 ]);
 
@@ -153,11 +153,11 @@ const changeColor = (index) => {
 };
 onMounted(() => {
     const path = window.location.pathname;
-    if (path === '/musee_view_master/') {
+    if (path === '/MUSTer_view_master/') {
         buttons.value[0].isActive = true;
-    } else if (path === '/musee_view_master/collection') {
+    } else if (path === '/MUSTer_view_master/collection') {
         buttons.value[1].isActive = true;
-    } else if (path === '/musee_view_master/userinfo') {
+    } else if (path === '/MUSTer_view_master/userinfo') {
         buttons.value[2].isActive = true;
     }
 });
